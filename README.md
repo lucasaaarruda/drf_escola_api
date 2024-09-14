@@ -1,20 +1,80 @@
-# Projeto API-Escola
-API feita juntamente com o curso de Django Rest Framework da Alura, aplicando conceitos novos de versionamento de API,  
-definir níveis de permissões de usuários, limitar número de requisições, adicionar informações extras nas requisições e integrar a API Django com o React front-end.
-Criar e manter boas arquiteturas para projetos Django Rest API, e, além disso, fazendo deploy da API no AWS.
+# Projeto API-Escola 📚
 
-## Principais Utilizações
-* **Python**: Python foi utilizado como linguagem base para criação do projeto.
-* **Django**: O Django foi o Framework utilizado para a criação da página Web.
-* **Django Rest Framework**: O Django Rest Framework foi a biblioteca utilizada para a criação da API Rest, facilitando a a paginação, criação do sistema de busca, urls e entre outros.
-* **React**: React foi disponibilizado pronto para uso do front-end, por isso, não está entre os arquivos.
-  
-## Considerações
-API permite a adição de novos alunos, cursos e alunos matrículados em seus respectivos cursos.  
-Criado a interface por meio do Django Rest Framework, e outras bibliotecas.  
-React foi utilizado para listagem dos cursos e para aprendizagem de como executar um CORS.
-Além das bibliotecas já citadas, foram utilizadas diversas outras bibliotecas que podem ser encontradas no arquivo **requirements.txt**
+Este projeto é uma API desenvolvida em conjunto com o curso de Django Rest Framework da Alura. Ele demonstra a aplicação de conceitos avançados em versionamento de API, controle de permissões, limitação de requisições e integração com front-end React. O projeto também inclui práticas de boas arquiteturas para APIs Django e deploy na AWS.
 
-## informações Adicionais
-Projeto está aberto para commits e melhorias.  
-Obrigado!
+## 🚀 Sobre o Projeto
+
+O objetivo deste projeto é criar uma API robusta e escalável para gerenciamento de uma escola, com funcionalidades para adicionar e gerenciar alunos, cursos e matrículas. A API foi desenvolvida utilizando Django Rest Framework e integrada com um front-end React.
+
+## 🔧 Principais Utilizações
+
+- **Python:** Utilizado como linguagem base para o desenvolvimento do projeto, garantindo flexibilidade e eficiência.
+- **Django:** Framework principal para a criação da aplicação web, proporcionando uma base sólida para o desenvolvimento da API.
+- **Django Rest Framework:** Biblioteca essencial para a construção da API Rest, facilitando a implementação de paginação, sistema de busca, e gestão de URLs.
+- **React:** Front-end disponível para integração com a API. Não incluído no repositório, mas projetado para listar cursos e demonstrar a funcionalidade de CORS.
+
+## 💡 Considerações
+
+- **Funcionalidades da API:** Permite a adição e gerenciamento de alunos, cursos e matrículas.
+- **Integração com React:** Utilizado para a exibição dos cursos e aprendizado sobre CORS.
+- **Outras Bibliotecas:** Diversas bibliotecas foram utilizadas, cujas dependências estão listadas no arquivo `requirements.txt`.
+
+## 🌐 Como Usar
+
+1. **Clone o Repositório:**
+
+    ```bash
+    git clone https://github.com/lucasaaarruda/projeto-api-escola
+    ```
+
+2. **Navegue para o Diretório:**
+
+    ```bash
+    cd projeto-api-escola
+    ```
+
+3. **Instale as Dependências:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Execute as Migrações do Banco de Dados:**
+
+    ```bash
+    python manage.py migrate
+    ```
+
+5. **Inicie o Servidor:**
+
+    ```bash
+    python manage.py runserver
+    ```
+
+6. **Acesse a API no Navegador:**
+
+    Abra o navegador e vá para `http://localhost:8000` para interagir com a API.
+
+## 📦 Deploy na AWS
+
+Para informações sobre como fazer o deploy na AWS, consulte a documentação específica ou tutoriais relacionados a Django e AWS.
+
+## 📈 Recursos Adicionais
+
+- **Arquivo requirements.txt:** Contém todas as bibliotecas utilizadas no projeto.
+
+## 🛠️ Contribuições
+
+Este projeto está aberto para contribuições e melhorias. Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## 📧 Contato
+
+Para mais informações ou dúvidas, entre em contato:
+
+- **LinkedIn:** [Lucas Arruda](https://www.linkedin.com/in/lucasaarruda/)
+
+Obrigado por explorar este projeto. Espero que seja útil para seus estudos e desenvolvimento!
+
+---
+
+Sinta-se livre para ajustar as informações conforme necessário e adicionar qualquer detalhe adicional que considere relevante. Se precisar de mais assistência, é só avisar!
